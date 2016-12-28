@@ -1,4 +1,4 @@
-# Interview Practice Udacity
+# Interview Udacity
 
 #### 1)  What’s your favorite tool or library for Android? Why is it so useful?
 > My favourite library is Schematic. It helps to generate Content Providers for our database which helps us to access our database from widget and other applications. Another one is Rx Java- It's a new library that helps us to do network calls without using async task and we can easily switch between UI and Background thread.

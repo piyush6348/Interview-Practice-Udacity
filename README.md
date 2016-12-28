@@ -56,13 +56,8 @@ class TestClass {
 #### 4) List and explain the differences between four different options you have for saving data while making an Android app. Pick one, and explain (without code) how you would implement it.
 > Options to store data: 1. Shared preferences 2. SQLite database 3. Internal Storage 4. External storage 5. Network Connection<br>
 	Shared Preferences is a key-value pair storage. It is generally used to store small amount of data.<br>
-	
-> To write values:
-    1. Call edit() to get a SharedPreferences.Editor.<br>
-    2. Add values with methods such as putInt() and putString().<br>
-    3. Commit the new values with commit().<br>
-    4. Use getSharedPreference method to get it.<br>
-    5. Use getString(), getBoolean() methods to fetch values from it.<br>
+Firstly we can call edit() to get a SharedPreferences.Editor.
+Then we can  Add values with methods such as putInt() and putString().Then commit the new values with commit().Then we can use getString(), getBoolean() methods to fetch values from it.<br>
   But this method is not so effective for large datasets.<br>
   
 
